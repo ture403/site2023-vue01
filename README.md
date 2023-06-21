@@ -1,24 +1,8 @@
 # site-vue01
 
-## Project setup
-```
-npm install
-```
+## vue.js
+vue.js를 이용해서 사이트를 만들어 봤습니다.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+vue 버전 3
+slide 구현
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
