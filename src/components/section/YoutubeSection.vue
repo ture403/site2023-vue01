@@ -37,6 +37,7 @@ export default {
 };
 </script>
 <style lang="scss">
+@import "@/assets/scss/setting/mixins";
 //youtube__wrap
 .youtube__wrap {
   overflow: hidden;
