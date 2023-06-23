@@ -1,7 +1,7 @@
 <template>
   <main>
     <SliderSection attr="slider__wrap nexon" />
-    <IntroSection attr="intro__wrap section bg-blue nexon" />
+    <IntroSection attr="intro__wrap section nexon" />
     <PortSection attr="port__wrap section center bg-blue nexon" />
     <UnspalshSection attr="youtube__wrap section nexon" />
     <YoutubeSection attr="unsplash__wrap nexon" />

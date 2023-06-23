@@ -123,7 +123,7 @@ export default {
 <style lang="scss">
 // slider__wrap
 .slider__wrap {
-  background-color: #ccc;
+  background-color: #d5a7e7;
 }
 .slider__inner {
   position: relative;

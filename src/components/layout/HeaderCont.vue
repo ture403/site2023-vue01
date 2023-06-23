@@ -7,10 +7,10 @@
       <nav class="header__nav" role="navigation">
         <ul>
           <li>
-            <router-link to="/intro">소개</router-link>
+            <router-link to="/intro">인트로</router-link>
           </li>
           <li>
-            <router-link to="/port">포트폴리오</router-link>
+            <router-link to="/port">갤러리</router-link>
           </li>
           <li>
             <router-link to="/youtube">유튜브</router-link>

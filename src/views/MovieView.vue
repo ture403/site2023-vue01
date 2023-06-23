@@ -1,7 +1,7 @@
 <template>
   <div>
     <ContTitle title="movies" />
-    <MovieSlider />
+    <MovieSlider :movies="movies" />
     <MovieSearch />
     <MovieTag />
     <MovieCont :movies="movies" />
@@ -37,7 +37,6 @@ export default {
       )
         .then((response) => response.json())
         .then((result) => {
-          console.log(result);
           movies.value = result.results;
           searchs.value = result.results;
         })
