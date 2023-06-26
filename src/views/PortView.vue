@@ -1,5 +1,16 @@
 <template>
-  <div>
-    <section>포트폴리오</section>
-  </div>
+  <ContTitle title="gallery" />
+  <PortText />
 </template>
+<script>
+import ContTitle from "@/components/layout/ContTitle.vue";
+import PortText from "@/components/port/PortText.vue";
+
+export default {
+  name: "HomeView",
+  components: {
+    ContTitle,
+    PortText,
+  },
+};
+</script>

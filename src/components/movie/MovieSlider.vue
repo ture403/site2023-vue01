@@ -2,6 +2,7 @@
   <div className="movie__slider">
     <Swiper
       class="Swiper"
+      effect="coverflow"
       :modules="modules"
       :slides-per-view="5"
       :space-between="50"
@@ -38,7 +39,6 @@
 import {
   Navigation,
   Pagination,
-  Scrollbar,
   A11y,
   Autoplay,
   EffectCoverflow,
@@ -63,14 +63,7 @@ export default {
   },
   setup() {
     return {
-      modules: [
-        Navigation,
-        Pagination,
-        Scrollbar,
-        A11y,
-        Autoplay,
-        EffectCoverflow,
-      ],
+      modules: [Navigation, Pagination, A11y, Autoplay, EffectCoverflow],
     };
   },
 };
@@ -82,7 +75,11 @@ export default {
   .Swiper {
     width: 100%;
     height: 100%; /* 높이를 100%로 설정하여 화면에 맞게 조정합니다 */
-    padding: 20px 0 50px;
+    padding: 20px 30px 50px;
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none;
+    }
   }
 }
 </style>

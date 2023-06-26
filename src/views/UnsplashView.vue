@@ -1,7 +1,7 @@
 <template>
   <div>
     <ContTitle title="unsplash" />
-    <UnsplashSlider />
+    <UnsplashSlider :unsplashs="unsplashs" />
     <UnsplashSearch />
     <UnsplashTag />
     <UnsplashCont :unsplashs="unsplashs" />
