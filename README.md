@@ -2,7 +2,7 @@
 
 <img src="public/images/5.png"  width="700" height="370">
 
-Vue 작성한 홈페이지 입니다.
+Vue 작성한 간단한 홈페이지 입니다.
 
 ******
 
