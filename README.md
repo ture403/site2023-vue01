@@ -1,6 +1,6 @@
 # Vue-BLOG
 
-<img src="public/images/5.png"  width="700" height="370">
+<img src="public/images/5.png"  width="1000" height="500">
 
 Vue 작성한 간단한 홈페이지 입니다.
 
