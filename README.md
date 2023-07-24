@@ -1,6 +1,6 @@
 # NEXT-BLOG
 
-<img src="public/assets/images/5.png"  width="700" height="370">
+<img src="public/images/5.png"  width="700" height="370">
 
 NEXT.JS 13.4 버전으로 작성한 홈페이지 입니다.
 
