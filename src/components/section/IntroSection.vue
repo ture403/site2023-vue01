@@ -52,7 +52,7 @@ export default {
         },
       ],
       title: "Web Publisher",
-      desc: `웹퍼블리셔<br />전문과정`,
+      desc: `프론트앤드<br />전문과정`,
       p: `프론트엔드 개발자로 취업하기 위한<br />전문 과정입니다`,
     };
   },
@@ -109,6 +109,22 @@ export default {
     &:nth-child(4) {
       margin-bottom: 0;
     }
+  }
+}
+@media (max-width: 1100px) {
+  .intro__title {
+    width: 100%;
+    text-align: center;
+  }
+  .intro__desc {
+    padding-top: 2em;
+    border-top: 1px dotted #aaa;
+  }
+  .intro__inner {
+    flex-direction: column;
+  }
+  .intro__desc {
+    width: 100%;
   }
 }
 </style>

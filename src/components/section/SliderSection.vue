@@ -79,8 +79,8 @@ export default {
     SwiperSlide,
   },
   setup() {
-    const onSwiper = (swiper) => {
-      console.log(swiper);
+    const onSwiper = () => {
+      // console.log(swiper);
     };
     const onSlideChange = () => {
       console.log("slide change");
@@ -267,6 +267,36 @@ export default {
         background-color: #fff;
       }
     }
+  }
+}
+@media (max-width: 1120px) {
+  .circle {
+    display: none;
+  }
+  .img {
+    width: 2vw;
+    height: 2vw;
+  }
+  .slider__inner .slider__img .slider .img {
+    width: 500px;
+    height: 500px;
+  }
+  .slider__inner .slider__img .slider .text {
+    margin-left: 30px;
+  }
+  .slider__inner .slider__img .slider .text h3 {
+    font-size: 10vw;
+  }
+  .slider__inner .slider__img .slider .text p {
+    font-size: 2.5vw;
+  }
+  .slider__inner .slider__img .slider .text .more {
+    font-size: 1.8vw;
+  }
+}
+@media (max-width: 800px) {
+  .img {
+    display: none;
   }
 }
 </style>

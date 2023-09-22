@@ -155,3 +155,8 @@ $interval: (
     margin-bottom: $size !important;
   }
 }
+@media (max-width:1120px){
+  .container {
+     width: 80%;
+  }
+ }

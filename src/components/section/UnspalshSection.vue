@@ -124,4 +124,9 @@ export default {
     }
   }
 }
+@media (max-width: 1100px) {
+  .unsplash__inner .unsplash__item {
+    overflow: hidden;
+  }
+}
 </style>
